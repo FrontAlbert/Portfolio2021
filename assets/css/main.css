@@ -3744,3 +3744,18 @@ font-size: 1em;
 .me img{
     width: 30%;
 }
+
+@media (max-width:1060px){
+    .me img{
+        width: 50%;
+    }
+}
+
+@media (max-width:960px){
+    .me img{
+        display: none;
+    }
+    .me p{
+        width: 100%;
+    }
+}
